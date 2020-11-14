@@ -375,7 +375,7 @@ For each additional control plane node you should:
     ```
 
     - 这个 `--control-plane` 命令通知 `kubeadm join` 创建一个新的控制平面。
-    - `--certificate-key ...` 将导致从集群中的 `kubeadm-certs` 秘钥下载控制平面证书并使用给定的密钥进行解密。
+    - `--certificate-key ...` 将导致从集群中的 `kubeadm-certs` 密钥下载控制平面证书并使用给定的密钥进行解密。
 
 <!--
 ## External etcd nodes
